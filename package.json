@@ -1,6 +1,6 @@
 {
   "name": "react-native-tracker-bar",
-  "version": "1.0.1-beta.6",
+  "version": "1.0.1-beta.7",
   "description": "Progress tracker for react-native",
   "main": "dist/index.js",
   "module": "dist/index.js",
