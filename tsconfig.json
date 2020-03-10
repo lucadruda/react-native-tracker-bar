@@ -12,9 +12,9 @@
     ],
     "moduleResolution": "node",
     "strict": true,
-    "module": "commonjs",
-    "target": "es2017",
-    "skipLibCheck": true,
+    "module": "esnext",
+    "target": "es5",
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules",

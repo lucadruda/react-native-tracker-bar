@@ -3,6 +3,7 @@
   "version": "1.0.1-beta.6",
   "description": "Progress tracker for react-native",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node_modules/.bin/tsc",
@@ -10,6 +11,10 @@
   },
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
   "devDependencies": {
     "@types/react": "^16.9.23",
     "@types/react-native": "^0.61.20",
@@ -17,11 +22,8 @@
     "react-native": "^0.61.5",
     "typescript": "^3.8.3"
   },
-  "peerDependencies": {
-    "react": "^16.13.0",
-    "react-native": "^0.61.5"
-  },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ]
 }
