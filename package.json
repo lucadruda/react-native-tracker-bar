@@ -4,7 +4,9 @@
   "description": "Progress tracker for react-native",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/tsc -p .",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +14,8 @@
     "@types/react": "^16.9.23",
     "@types/react-native": "^0.61.20",
     "react": "^16.13.0",
-    "react-native": "^0.61.5"
+    "react-native": "^0.61.5",
+    "typescript": "^3.8.3"
   },
   "peerDependencies": {
     "react": "^16.13.0",
