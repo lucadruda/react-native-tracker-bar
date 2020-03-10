@@ -10,7 +10,6 @@
       "es6"
     ],
     "moduleResolution": "node",
-    "noEmit": true,
     "strict": true,
     "module": "commonjs",
     "target": "es2017",
