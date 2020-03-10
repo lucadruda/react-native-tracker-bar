@@ -4,6 +4,7 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
+    "outDir": "./dist",
     "jsx": "react-native",
     "lib": [
       "es6"
